@@ -1,0 +1,41 @@
+{
+    "name":"Double Hung",
+    "tabs": [
+        {
+            "name": "Details",
+            "categories": [
+                {
+                    "name": "specifications",
+                    "type": "group",
+                    "objects": [
+                        {
+                            "name":"Details",
+                            "type":"set",
+                            "options":[
+                                {
+                                    "name":"location",
+                                    "type":"field",
+                                    "inputType":"chip",
+                                    "values":[
+                                        {"Main Level":null},
+                                        {"Upstairs":null},
+                                        {"Downstairs":null}
+                                    ]
+                                }
+                            ],
+                            "isHorizontal": false
+                        }
+                    ]
+                }
+            ],
+            "icon": "0xe800"
+        },
+        {
+            "name": "Details",
+            "categories": [
+                
+            ],
+            "icon": "0xe801"
+        }
+    ]
+}
